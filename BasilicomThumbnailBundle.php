@@ -9,7 +9,7 @@ class BasilicomThumbnailBundle extends AbstractPimcoreBundle
 {
     use PackageVersionTrait;
 
-    const PACKAGE_NAME = 'basilicom/thumbnail-bundle';
+    const PACKAGE_NAME = 'mackrais/thumbnail-bundle';
 
     protected function getComposerPackageName()
     {
