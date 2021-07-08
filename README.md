@@ -27,7 +27,7 @@ GPLv3 - see: gpl-3.0.txt
 
 ## Installation
 
-1) Install the bundle using composer `composer require basilicom/thumbnail-bundle`.
+1) Install the bundle using composer `composer require mackrais/thumbnail-bundle`.
 3) Configure the bundle (see below)
 2) Execute `bin/console pimcore:bundle:enable BasilicomThumbnailBundle`.
 
