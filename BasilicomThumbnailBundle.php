@@ -11,7 +11,7 @@ class BasilicomThumbnailBundle extends AbstractPimcoreBundle
 
     const PACKAGE_NAME = 'mackrais/thumbnail-bundle';
 
-    protected function getComposerPackageName()
+    protected function getComposerPackageName(): string
     {
         return self::PACKAGE_NAME;
     }
