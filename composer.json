@@ -1,38 +1,20 @@
 {
-  "name": "mackrais/thumbnail-bundle",
-  "license": "GPL-3.0-or-later",
-  "type": "pimcore-bundle",
-  "description": "This Bundle provides asynchronous thumbnail creation for Pimcore.",
-  "keywords": ["pimcore","thumbnail","async"],
-  "homepage": "https://basilicom.de",
-  "minimum-stability": "dev",
-  "authors": [
-    {
-      "name": "Christoph Luehr",
-      "email": "christoph.luehr@basilicom.de"
+    "name": "mackrais/thumbnail-bundle",
+    "type": "library",
+    "require": {
+        "pimcore/pimcore": ">=6.9 <7.0",
+        "symfony/messenger": ">=4.3",
+        "ext-redis": ">=4.3"
     },
-    {
-      "name": "Basilicom GmbH",
-      "homepage": "https://basilicom.de"
-    }
-  ],
-  "repositories": [
-    {"type": "composer", "url": "https://asset-packagist.org"}
-  ],
-  "autoload": {
-    "psr-4": {
-      "Basilicom\\ThumbnailBundle\\": "."
+    "require-dev": {
+        "codeception/codeception": "^2.2"
     },
-    "exclude-from-classmap": [
-      "Tests"
+    "minimum-stability": "dev",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Oleh Boiko",
+            "email": "mackraiscms@gmail.com"
+        }
     ]
-  },
-  "require": {
-    "pimcore/pimcore": ">=6.9 <7.0",
-    "symfony/messenger": ">=4.3",
-    "ext-redis": ">=4.3"
-  },
-  "require-dev": {
-    "codeception/codeception": "^2.2"
-  }
 }
