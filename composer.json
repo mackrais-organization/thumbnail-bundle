@@ -15,14 +15,9 @@
       "homepage": "https://basilicom.de"
     }
   ],
-  "config": {
-    "sort-packages": true
-  },
-  "require": {
-    "pimcore/pimcore": ">=6.0 <7.0",
-    "symfony/messenger": ">=4.3",
-    "ext-redis": ">=4.3"
-  },
+  "repositories": [
+    {"type": "composer", "url": "https://asset-packagist.org"}
+  ],
   "require-dev": {
     "codeception/codeception": "^2.2"
   },
