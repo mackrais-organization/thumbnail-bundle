@@ -5,6 +5,7 @@
   "description": "This Bundle provides asynchronous thumbnail creation for Pimcore.",
   "keywords": ["pimcore","thumbnail","async"],
   "homepage": "https://basilicom.de",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Christoph Luehr",
@@ -18,9 +19,6 @@
   "repositories": [
     {"type": "composer", "url": "https://asset-packagist.org"}
   ],
-  "require-dev": {
-    "codeception/codeception": "^2.2"
-  },
   "autoload": {
     "psr-4": {
       "Basilicom\\ThumbnailBundle\\": "."
@@ -29,11 +27,12 @@
       "Tests"
     ]
   },
-  "extra": {
-    "pimcore": {
-      "bundles": [
-        "Basilicom\\ThumbnailBundle\\BasilicomThumbnailBundle"
-      ]
-    }
+  "require": {
+    "pimcore/pimcore": ">=6.0 <7.0",
+    "symfony/messenger": ">=4.3",
+    "ext-redis": ">=4.3"
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.2"
   }
 }
