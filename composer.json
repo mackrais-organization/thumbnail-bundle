@@ -1,5 +1,5 @@
 {
-  "name": "basilicom/thumbnail-bundle",
+  "name": "mackrais/thumbnail-bundle",
   "license": "GPL-3.0-or-later",
   "type": "pimcore-bundle",
   "description": "This Bundle provides asynchronous thumbnail creation for Pimcore.",
@@ -20,7 +20,7 @@
   },
   "require": {
     "pimcore/pimcore": ">=6.0 <7.0",
-    "symfony/messenger": "^4.3",
+    "symfony/messenger": ">=4.3",
     "ext-redis": ">=4.3"
   },
   "require-dev": {
