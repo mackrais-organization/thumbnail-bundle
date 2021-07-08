@@ -5,7 +5,7 @@
   "description": "This Bundle provides asynchronous thumbnail creation for Pimcore.",
   "keywords": ["pimcore","thumbnail","async"],
   "homepage": "https://basilicom.de",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Christoph Luehr",
